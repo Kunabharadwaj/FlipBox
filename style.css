@@ -1,0 +1,21 @@
+#container{
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+
+}
+
+.box{
+    width: 10%;;
+    height: 100px;
+    background-color: lightgreen;
+    margin: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+}
